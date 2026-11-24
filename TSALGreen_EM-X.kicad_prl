@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -15,6 +15,7 @@
       "vias": 1.0,
       "zones": 0.6
     },
+    "prototype_zone_fills": false,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -29,6 +30,7 @@
       "zones": true
     },
     "visible_items": [
+      "vias",
       "footprint_text",
       "footprint_anchors",
       "ratsnest",
@@ -41,21 +43,24 @@
       "drawing_sheet",
       "bitmaps",
       "pads",
+      "zones",
       "drc_warnings",
       "locked_item_shadows",
       "conflict_shadows",
-      "shapes"
+      "shapes",
+      "ly_points"
     ],
     "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
+    "integration_disabled": false,
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "TSALGreen_EM-06_1.0.kicad_prl",
+    "filename": "TSALGreen_EM-X.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -90,16 +95,16 @@
     "col_widths": [
       156,
       141,
+      127,
+      149,
+      138,
+      154,
+      140,
+      158,
       103,
-      110,
-      103,
-      114,
-      113,
-      115,
       103,
       103,
-      103,
-      103
+      177
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -108,6 +113,7 @@
     "filter_text": "",
     "group_by_constraint": false,
     "group_by_netclass": false,
+    "show_time_domain_details": false,
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
@@ -118,6 +124,7 @@
     "files": []
   },
   "schematic": {
+    "hierarchy_collapsed": [],
     "selection_filter": {
       "graphics": true,
       "images": true,
@@ -125,6 +132,7 @@
       "lockedItems": false,
       "otherItems": true,
       "pins": true,
+      "ruleAreas": true,
       "symbols": true,
       "text": true,
       "wires": true
